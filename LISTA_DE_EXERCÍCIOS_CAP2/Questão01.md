@@ -1,0 +1,3 @@
+a) 2
+b) Apesar de ter sido escrito um número decimal, o tipo de variável inteiro considera a parte inteira do valor numérico descartando a parte fracionária. Truncamento.
+c) c ) Para manter a precisão deve-se utilizar o tipo de variável adequado aos decimais, como float e double. Mas se for necessário usar o int e realizar um arredondamento inclua a biblioteca <math.h> e use as funções: round() que arredonda para o inteiro mais próximo (padrão matemático), ceil() que arredonda para cima ou floor() que arredonda para baixo.
