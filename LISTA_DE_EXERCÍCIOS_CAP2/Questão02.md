@@ -1,0 +1,1 @@
+a) A biblioteca foi criada para ambientes específicos, principalmente sistemas DOS e alguns compiladores antigos, por não fazer parte do padrão oficial ANSI C. podem não estar disponíveis em sistemas modernos e pode não funcionar corretamente, não sendo adequada a utilização em projetos que precisam funcionar em diferentes plataformas.
