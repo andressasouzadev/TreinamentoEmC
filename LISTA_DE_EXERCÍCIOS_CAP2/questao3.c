@@ -1,17 +1,16 @@
 #include <stdio.h>
 
-int main() {
-int numero;
+int main(void) {
+    int numero;
 
-```
-printf("Digite um numero inteiro: ");
-scanf("%d", &numero);
+    printf("Digite um numero inteiro: ");
+    scanf("%d", &numero);
 
-printf("Decimal: %d | Hexadecimal: %x | Octal: %o | ASCII: %c\n",
-       numero, numero, numero, numero);
+    printf("Decimal: %d\n", numero);
+    printf("Hexadecimal: %x\n", numero);
+    printf("Octal: %o\n", numero);
+    printf("ASCII: %c\n", numero);
 
-return 0;
-```
-
+    return 0;
 }
 
