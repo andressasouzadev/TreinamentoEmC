@@ -1,0 +1,23 @@
+# Questão 05
+
+Valores:
+
+```c
+i = 1, j = 2, k = 3, n = 2;
+x = 3.3, y = 4.4;
+```
+
+| Item | Resultado |
+|---|---:|
+| a) `i < 5` | 1 |
+| b) `2*i - 7 <= 2*j - 8` | 1 |
+| c) `-x + y >= 2*y` | 0 |
+| d) `x == y` | 0 |
+| e) `!(n - j)` | 1 |
+| f) `!n - j` | -2 |
+| g) `i && j && k` | 1 |
+| h) `i || j - 3 && k` | 1 |
+| i) `i < j && j >= k` | 0 |
+| j) `i > j && j > k` | 0 |
+
+Observação: no item f, `!n` vale `0`, então `0 - 2 = -2`. Se essa expressão for usada em um `if`, ela será considerada verdadeira, pois qualquer valor diferente de zero é verdadeiro em C.

@@ -1,0 +1,35 @@
+# Questão 06
+
+No trecho:
+
+```c
+x = ++n;
+y = m++;
+```
+
+Com `n = 5` e `m = 5`:
+
+- `++n` aumenta primeiro e depois atribui: `n = 6` e `x = 6`.
+- `m++` atribui primeiro e aumenta depois: `y = 5` e `m = 6`.
+
+A primeira impressão será:
+
+```text
+6 5
+```
+
+Já esta linha apresenta comportamento indefinido:
+
+```c
+printf("%d\t%d\t%d\n", n, n + 1, n++);
+```
+
+Isso acontece porque `n` é lido e modificado na mesma expressão sem uma ordem de avaliação garantida. Portanto, não existe um resultado confiável.
+
+O ideal é separar as operações:
+
+```c
+printf("%d\t%d\n", n, n + 1);
+n++;
+printf("%d\n", n);
+```
