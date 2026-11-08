@@ -34,3 +34,10 @@ void main(){
     
   printf("valores finais %i %i %i %i \n", a,b,c,d);
 }
+
+/* Para alterações de valores maiores que 1 e outros operadores, utiliza-se o sinal do operador junto com o de igualdade que indica atribuição
+exemplo:
+int a = 2;
+int a += 2;
+int a = 4;
+*/
