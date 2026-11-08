@@ -5,8 +5,7 @@ void main(){
   float altura;
   char letra_favorita;
 
-/*para adicionar um valor á uma variável podemos indicar o endereço onde deverá ser gravado esse valor, usando o & e em seguida o nome da variável*/
-
+/*para adicionar um valor á uma variável podemos indicar onde deverá ser gravado esse valor, usando o & e em seguida o nome da variável*/
   printf("Qual a sua idade?\n");
   scanf(" %i", &idade);
   printf("Qual a sua altura?\n");
@@ -19,8 +18,9 @@ void main(){
   printf("A sua idade é: %i\n"\
   "A sua altura é: %f\n"\
   "A sua letra favorita é: %c\n"\
-, idade, altura, letra_favorita);
+, idade, altura, letra_favorita); // para acessar o conteúdo da variável
 }
   
+/* %p foi criado para imprimir endereços da memória ram e o %x foi projetado para exibir inteiros sem sinal em formato hexadecimal*/
 
 
